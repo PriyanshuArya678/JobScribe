@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from  app.routes.main import router
-from app.core.middleware import AuthMiddleware
+from routes.main import router
+from core.middleware import AuthMiddleware
+
 
 app = FastAPI()
 
