@@ -1,0 +1,26 @@
+[project]
+name = "emailagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langgraph>=0.6.7",
+    "uvicorn>=0.35.0",
+    "pymongo>=4.10.1",
+    "python-jose>=3.3.0",
+    "passlib>=1.7.4",
+    "bcrypt>=4.2.0",
+    "langchain-groq>=0.3.7",
+    "pydantic[email]>=2.11.9",
+    "python-multipart>=0.0.20",
+    "pdfplumber>=0.11.7",
+    "langchain-openai>=0.3.33",
+    "langchain-chroma>=0.2.6",
+    "langchain-huggingface>=0.3.1",
+    "sentence-transformers>=5.1.0",
+]
